@@ -1,0 +1,161 @@
+body {
+    background-image: url("assets/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-color: #edf4fc;
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo, button {
+    background-color: transparent;
+    border: none;
+}
+
+.logo {
+    margin: 20px 0px 0px;
+}
+
+.playBtn {
+    width: 60px;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: auto;
+    letter-spacing: 3px;
+}
+
+h4 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: -5px 0px 5px;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 5px 50px;
+}
+
+.safari {
+    background-color: rgba(251, 248, 249, 0.82);
+    height: 300px;
+    width: 200px;
+    margin: 50px 0px 0px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #212A3E;
+}
+
+.days, .hours, .minutes, .seconds {
+    color: #394867;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.open {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: #212A3E;
+    background-color: rgba(251, 248, 249, 0.82);
+    padding: 30px;
+}
+
+@media all and (max-width: 820px) {
+    .safari {
+        height: 250px;
+        width: 170px;
+    }
+
+    .days, .hours, .minutes, .seconds {
+        padding-top: 30px;
+    }
+
+    .container {
+        margin: 50px 5px 50px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    body {
+        background-image: url("assets/mobile_cover.jpg");
+        background-position: right;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 1;
+        margin: 20px 5px 7px;
+    }
+
+    .playBtn {
+        width: 45px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h2, .open {
+        font-size: 30px;
+    }
+
+    .container {
+        margin: 0px 5px 40px;
+    }
+
+    .safari {
+        height: 200px;
+        width: 150px;
+    }
+
+    .days, .hours, .minutes, .seconds {
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .days, .hours, .minutes, .seconds {
+        font-size: 45px;
+    }
+}
